@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+        <link rel="shortcut icon" href="IMG/favicon.png" type="image/x-icon">
+        <link href="https://fonts.googleapis.com/css2?family=Russo+One&display=swap" rel="stylesheet">
+        <title>Registro</title>
+    </head>
+    <body>
+        <section class="container-fluid">
+            <div class="row justify-content-center">
+                <div class="col-lg-4 col-md-4 col-12 bg-light pt-5 pb-5 aling-items-center vh-101 border">
+                    <h3 class="text-center mb-5" style="font-family: 'Russo One', sans-serif;">Completá tus datos
+                    </h3>
+                    <form action="" class="text-dark" style="font-family: 'Russo One', sans-serif;">
+                        <div class="form-group" placeholder="Nombre" >
+                            <label for="nombre">Nombre<span class="text-danger">*</span></label>
+                            <input type="text" class="form-control" id="nombre" maxlength="10" required autofocus>
+                        </div>
+                        <div class="form-group" placeholder="Apellido">
+                            <label for="apellido">Apellido<span class="text-danger">*</span></label>
+                            <input type="text" class="form-control" id="apellido" maxlength="10" required>
+                        </div>
+                        <div class="form-group" placeholder="Teléfono">
+                            <label for="telefono">Tel/Cel<span class="text-danger">*</span></label>
+                            <input type="tel" class="form-control" id="telefono" maxlength="10" required>
+                        </div>
+                        <div class="form-group" placeholder="Número de Documento">
+                            <label for="dni">DNI<span class="text-danger">*</span></label>
+                            <input type="number" class="form-control" id="dni" maxlength="8" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="nacionalidad">Nacionalidad</label>
+                            <select class="form-control" id="nacionalidad" >
+                                <option>Argentina</option>
+                                <option>Chile</option>
+                                <option>Uruguay</option>
+                                <option>Paraguay</option>
+                                <option>Brasil</option>
+                                <option>Peru</option>
+                                <option>Bolivia</option>
+                                <option>Colombia</option>
+                                <option>Venezuela</option>
+                        </div>
+                        <div class="form-group" placeholder="Dirección Actual">
+                            <label for="direccion">Dirección Actual</label>
+                            <input type="text" class="form-control" id="direccion" >
+                        </div>
+                        <div class="form-group" placeholder="Localidad">
+                            <label for="localidad">Localidad<span class="text-danger">*</span></label>
+                            <input type="text" class="form-control" id="localidad" required>
+                        </div>
+                        <div class="form-group" placeholder="ejemplo@correo.com.ar">
+                            <label for="email">E-Mail<span class="text-danger">*</span></label>
+                            <input type="email" class="form-control" id="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="fn">Fecha de Nacimiento<span class="text-danger">*</span></label>
+                            <input type="date" class="form-control" id="fn" required>
+                        </div>
+                        <div class="form-group">
+                            <p>Sexo</p>
+                            <label for="mujer">Femenino</label>
+                            <input type="radio" id="mujer" value="mujer" name="sexo">
+                            <label for="hombre">Masculino</label>
+                            <input type="radio" id="hombre" value="hombre" name="sexo">
+                            <label for="personalizado">Personalizado</label>
+                            <input type="radio" id="personalizado" value="personalizado" name="sexo">
+                        </div>
+                        <div class="form-group" placeholder="Explique su interés" >
+                            <label for="texto">Comentario</label>
+                            <input type="text" class="form-control" id="texto">
+                        </div>
+                        <button class="btn btn-secondary btn-block text-white">Enviar</button>
+                        
+                    </form>
+
+                    
+                </div>
+            </div>
+        </section>
+    </body>
+</html>
